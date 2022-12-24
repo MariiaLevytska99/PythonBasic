@@ -13,8 +13,6 @@ if D > 0:
     x2 = (-b - math.sqrt(D)) / 2 * a
     print("x1 = " + x1)
     print("x2 = " + x2)
-elif D == 0:
+else:
     x = -b / 2 * a
     print("x = " + x)
-elif D < 0:
-    print("Коренів немає")
