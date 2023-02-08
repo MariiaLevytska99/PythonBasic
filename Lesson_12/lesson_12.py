@@ -125,9 +125,9 @@ class HundredIter:
         return self._int
 
     def __iter__(self):
-        return HundredIteratorator():
+        return HundredIter()
 
-hundred_iterator = HundredIterator()
+hundred_iterator = HundredIter()
 
 for x in hundred_iterator:
     print(x)
